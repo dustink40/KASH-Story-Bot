@@ -132,7 +132,7 @@ const Home = () => {
           <div className="header-title">
             <h1>K-A-S-H Adventures: Explore Magical Worlds and Exciting Tales</h1>
           </div>
-          <Image src={kashLogo} alt="My Sweet Girl" />
+          <Image src={kashLogo} alt="Sweet girl" />
           <div className="header-subtitle">
             <h2>Embark on a Journey through Enchanting Stories with K.A.S.H</h2>
           </div>
