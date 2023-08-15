@@ -143,6 +143,9 @@ const Home = () => {
         <div classname="logo-container2">
           <Image src={kash2Logo} alt="Baby girl" />
         </div>
+        <div classname="logo-container3">
+          <Image src={kashLogo3} alt="Baby girl" />
+        </div>
         <audio
           src={`/kash2.mp3`}
           onCanPlay={(e) => e.target.volume = 0.2}
@@ -164,9 +167,6 @@ const Home = () => {
             value={volume}
             onChange={(e) => setVolume(e.target.value)}
         />
-        <div classname="logo-container3">
-          <Image src={kashLogo3} alt="Baby girl" />
-        </div>
           {/* Temporary button for calling requestSpeechFile to test */}
           {/* <button onClick={() => playTTS(userInput)}>Test voice</button> */}
 
