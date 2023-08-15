@@ -3,7 +3,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import kash2Logo from '../assets/kash2-logo.png';
 import kashLogo from '../assets/kash-logo.png';
-import kash3Logo from '../assets/kash3-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -142,9 +141,6 @@ const Home = () => {
         </div>
         <div classname="logo-container2">
           <Image src={kash2Logo} alt="Baby girl" />
-        </div>
-        <div classname="logo-container3">
-          <Image src={kash3Logo} alt="Baby girl" />
         </div>
         <audio
           src={`/kash2.mp3`}
