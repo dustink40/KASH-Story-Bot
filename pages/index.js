@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import kashLogo3 from '../assets/kash3-logo';
 import kash2Logo from '../assets/kash2-logo.png';
 import kashLogo from '../assets/kash-logo.png';
 import { useState } from 'react';
