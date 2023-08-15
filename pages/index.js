@@ -144,7 +144,7 @@ const Home = () => {
           <Image src={kash2Logo} alt="Baby girl" />
         </div>
         <div classname="logo-container3">
-          <Image src={kashLogo3} alt="Baby girl" />
+          <Image src={kash3Logo} alt="Baby girl" />
         </div>
         <audio
           src={`/kash2.mp3`}
