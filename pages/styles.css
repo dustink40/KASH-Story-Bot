@@ -82,11 +82,6 @@ body {
     margin-right: 10px;
 }
 
-.logo-container3 {
-    display: flex;
-    margin-left: 10px;
-}
-
 .prompt-container {
     place-content: flex-end center;
     align-items: center;
