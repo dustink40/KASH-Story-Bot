@@ -210,13 +210,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="badge-container grow">
-          <div className="logo-container">
-            <Image src={kash3Logo} alt="baby logo" />
-            <p>Help me build this project</p>
-          </div>
+        <p>Help me build this project</p>
       </div>
-    </div>
   );
 };
 
