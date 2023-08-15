@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import kashLogo3 from '../assets/kash3-logo';
 import kash2Logo from '../assets/kash2-logo.png';
 import kashLogo from '../assets/kash-logo.png';
 import { useState } from 'react';
@@ -210,13 +211,10 @@ const Home = () => {
         </div>
       </div>
       <div className="badge-container grow">
-        <a
-          href="https://www.buymeacoffee.com/guttermademedia" target="_blank" rel="noreferrer">
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
+          <div className="logo-container">
+            <Image src={kash3Logo} alt="baby logo" />
             <p>Help me build this project</p>
           </div>
-        </a>
       </div>
     </div>
   );
