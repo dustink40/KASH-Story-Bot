@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import buildspaceLogo from '../assets/Group 71.png';
+import kash2Logo from '../assets/kash2-logo.png';
 import kashLogo from '../assets/kash-logo.png';
+import kash3Logo from '../assets/kash3-logo.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -139,6 +140,9 @@ const Home = () => {
         <div classname="logo-container">
           <Image src={kashLogo} alt="Baby girl" />
         </div>
+        <div classname="logo-container2">
+          <Image src={kash2Logo} alt="Baby girl" />
+        </div>
         <audio
           src={`/kash2.mp3`}
           onCanPlay={(e) => e.target.volume = 0.2}
@@ -160,6 +164,9 @@ const Home = () => {
             value={volume}
             onChange={(e) => setVolume(e.target.value)}
         />
+        <div classname="logo-container3">
+          <Image src={kashLogo3} alt="Baby girl" />
+        </div>
           {/* Temporary button for calling requestSpeechFile to test */}
           {/* <button onClick={() => playTTS(userInput)}>Test voice</button> */}
 

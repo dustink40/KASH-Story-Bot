@@ -70,6 +70,23 @@ body {
     color: rgba(255, 255, 255, 0.75);
 }
 
+.logo-container {
+    display:flex;
+    margin-right: 10px;
+
+}
+
+.logo-container2 {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo-container3 {
+    display: flex;
+    margin-left: 10px;
+}
+
 .prompt-container {
     place-content: flex-end center;
     align-items: center;
